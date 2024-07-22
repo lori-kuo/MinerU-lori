@@ -4,6 +4,6 @@
         "bucket-name-2":["ak", "sk", "endpoint"]
     },
     "temp-output-dir":"/tmp",
-    "models-dir":"/tmp/models",
-    "device-mode":"cpu"
+    "models-dir":"E:\\MyProgram\\LLM\mineru\\MinerU\\PDF-Extract-Kit\\models",
+    "device-mode":"cuda"
 }
