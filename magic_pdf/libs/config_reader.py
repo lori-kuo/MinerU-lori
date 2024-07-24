@@ -12,7 +12,8 @@ from magic_pdf.libs.commons import parse_bucket_key
 
 
 def read_config():
-    home_dir = os.path.expanduser("~")
+    # home_dir = os.path.expanduser("~")
+    home_dir = os.getcwd()
 
     config_file = os.path.join(home_dir, "magic-pdf.json")
 
